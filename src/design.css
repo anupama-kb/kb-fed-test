@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 92%;
+  font-family: 'Acme';
+  color: white;
+  background: #003366;
+}
+
+p {
+  font-size: 75%;
+}
+
+h2, h3, h4, h5 {
+  margin: 0 0 3px;
+  text-align: center;
+}
+
+.cardList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Card {
+  width: 205px;
+  height: 250px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 30px black;
+  background: linear-gradient(to left,#136a8a,#267871);
+}
+
+.Card img {
+  width: 120px;
+  height: 120px;
+  margin: 8px 0 0 0;
+  border-radius: 70%;
+  border: 4px solid #236B8E;
+  object-fit: cover;
+}
+
+.CardTop {
+  height: 52%;
+  width: 100%;
+  text-align: center;
+}
+
+.CardBottom {
+  min-height: 40%;
+  overflow: auto;
+  min-width: 100%;
+  max-width: 100%;
+  padding: 0 10px 5px;
+  overflow-wrap: break-word;
+}
+
+
+.newUserButton {
+  background: #FF512F;
+  outline: none;
+  font-family: Acme;
+  background: linear-gradient(to left, #16222a, #3a6073);
+  color: white;
+  height: 250px;
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  margin: auto 10px;
+  box-shadow: 15px 15px 40px black;
+}
+
+.newUserButton:hover {
+  cursor: pointer;
+  background: #FF512A;
+  background: linear-gradient(to right, #236B8E, #236B8E);
+  box-shadow: 20px 20px 50px black;
+}
